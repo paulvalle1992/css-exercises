@@ -1,6 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
- 
+ text-align: center;
 }
 
 img {
@@ -29,11 +29,12 @@ img {
   
 }
 .img {
+  display: flex;
   gap: 52px;
+  justify-content: center;
 }
 .plantone, .planttwo, .plantthree, .plantfour {
-  display: flex;
-  flex-direction: column; 
+ 
   max-width: 200px; 
   
   
