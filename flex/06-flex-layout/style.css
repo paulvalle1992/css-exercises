@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -16,6 +19,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
+/* added the 16px from the solution, 
+  didn't do it on my own */
 }
 
 input {
@@ -24,4 +30,47 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
+  background: #eeeeee;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
+}
+
+a {
+   text-decoration: none ;
+  color: #666;
+}
+
+.left-links, .right-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.left-links {
+ display: flex;
+ padding: 0px;
+  
+}
+
+li {
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
